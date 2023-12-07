@@ -20,8 +20,6 @@
 		FB2F30402B216B08009EA8F3 /* NavigationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F303F2B216B08009EA8F3 /* NavigationTabView.swift */; };
 		FB2F30422B216B63009EA8F3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F30412B216B63009EA8F3 /* HomeView.swift */; };
 		FB2F30442B216B71009EA8F3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F30432B216B71009EA8F3 /* ProfileView.swift */; };
-		FB2F30462B216C4A009EA8F3 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F30452B216C4A009EA8F3 /* SideBar.swift */; };
-		FB2F30482B216C94009EA8F3 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F30472B216C94009EA8F3 /* SideBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +56,6 @@
 		FB2F303F2B216B08009EA8F3 /* NavigationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabView.swift; sourceTree = "<group>"; };
 		FB2F30412B216B63009EA8F3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FB2F30432B216B71009EA8F3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		FB2F30452B216C4A009EA8F3 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
-		FB2F30472B216C94009EA8F3 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +108,6 @@
 			children = (
 				614CFA142B2146C30077D5BE /* YourFirstSocialMediaApp.swift */,
 				F9E2E0A12B2170CE00F999A1 /* Home */,
-				FB2F30492B216C9B009EA8F3 /* SideBar */,
 				F9E2E0A02B2170C200F999A1 /* Profile */,
 				FB2F303F2B216B08009EA8F3 /* NavigationTabView.swift */,
 				614CFA182B2146C40077D5BE /* Assets.xcassets */,
@@ -164,15 +159,6 @@
 				F9E2E0A82B21758400F999A1 /* HomeModel.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		FB2F30492B216C9B009EA8F3 /* SideBar */ = {
-			isa = PBXGroup;
-			children = (
-				FB2F30472B216C94009EA8F3 /* SideBarView.swift */,
-				FB2F30452B216C4A009EA8F3 /* SideBar.swift */,
-			);
-			path = SideBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,8 +297,6 @@
 				FB2F30422B216B63009EA8F3 /* HomeView.swift in Sources */,
 				F9E2E0A72B21757500F999A1 /* HomeViewModel.swift in Sources */,
 				FB2F30442B216B71009EA8F3 /* ProfileView.swift in Sources */,
-				FB2F30462B216C4A009EA8F3 /* SideBar.swift in Sources */,
-				FB2F30482B216C94009EA8F3 /* SideBarView.swift in Sources */,
 				614CFA152B2146C30077D5BE /* YourFirstSocialMediaApp.swift in Sources */,
 				F9E2E0AB2B21759800F999A1 /* Post.swift in Sources */,
 			);

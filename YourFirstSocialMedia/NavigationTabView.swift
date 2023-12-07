@@ -1,9 +1,6 @@
 import SwiftUI
 
 struct NavigationTabView: View {
-    @State private var isDetailViewPresented = false
-    @State private var isSidebar = false
-
     var body: some View{
         
         NavigationView {
@@ -21,7 +18,6 @@ struct NavigationTabView: View {
                     .tabItem{
                         Label("Perfil", systemImage: "person")
                     }
-                
             }
         }
     }

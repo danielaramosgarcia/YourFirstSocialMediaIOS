@@ -15,13 +15,11 @@ struct HomeView: View {
     var body: some View {
             VStack {
                 ZStack {
-                    // 1. ScrollView se coloca primero para que esté detrás del botón
+
                     ScrollView(.vertical, showsIndicators: false) {
                         ForEach(homeVM.arrHome) { item in
-                            NavigationLink(destination: PostView(home: item)) {
-                                PostView(home: item)
-                            }
-                            .foregroundColor(Color(.black))
+                            PostView(home: item)
+                                .foregroundColor(Color(.black))
                         }
                     }
                     
@@ -36,7 +34,7 @@ struct HomeView: View {
                                 .frame(width: 60, height: 60)
                             
                             Button(action: {
-                                // Acciones cuando se toca el botón
+
                             }) {
                                 Image(systemName: "plus")
                                     .resizable()
