@@ -141,6 +141,13 @@
 			path = YourFirstSocialMediaUITests;
 			sourceTree = "<group>";
 		};
+		614CFA3E2B218D970077D5BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F9E2E0A02B2170C200F999A1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +160,11 @@
 		F9E2E0A12B2170CE00F999A1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				F9E2E0AA2B21759800F999A1 /* Post.swift */,
+=======
+				614CFA3E2B218D970077D5BE /* Views */,
+>>>>>>> 8491498 (addedfolders)
 				FB2F30412B216B63009EA8F3 /* HomeView.swift */,
 				F9E2E0A62B21757500F999A1 /* HomeViewModel.swift */,
 				F9E2E0A82B21758400F999A1 /* HomeModel.swift */,
