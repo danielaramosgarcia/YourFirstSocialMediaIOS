@@ -17,7 +17,7 @@ struct HomeView: View {
                 ZStack {
                     // 1. ScrollView se coloca primero para que esté detrás del botón
                     ScrollView(.vertical, showsIndicators: false) {
-                        ForEach(homeVM.getPostsForUser(username: "@clauarcienegam")) { item in
+                        ForEach(homeVM.arrHome) { item in
                             NavigationLink(destination: PostView(home: item)) {
                                 PostView(home: item)
                             }
