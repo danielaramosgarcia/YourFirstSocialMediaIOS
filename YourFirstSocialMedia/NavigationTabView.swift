@@ -17,7 +17,7 @@ struct NavigationTabView: View {
                         .font(.title)
                 }
                 
-                ProfileView()
+                ProfileView(profile: ProfileModel.defaultProfile)
                     .tabItem{
                         Label("Perfil", systemImage: "person")
                     }
@@ -30,5 +30,6 @@ struct NavigationTabView: View {
 struct NavigationTabView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationTabView()
+            .environmentObject(HomeViewModel())
     }
 }
