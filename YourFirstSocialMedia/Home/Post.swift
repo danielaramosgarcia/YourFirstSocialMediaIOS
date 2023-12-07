@@ -1,11 +1,3 @@
-//
-//  PostView.swift
-//  FemCoding
-//
-//  Created by Daniela Ramos Garcia on 09/11/23.
-//
-
-
 import SwiftUI
 
 struct PostView: View {
@@ -17,14 +9,13 @@ struct PostView: View {
         VStack(alignment: .leading){
             
             HStack{
-                NavigationLink(destination:  profileView(for: home.NombrePersona)) {
-                    Image(home.nombreImagen)
-                        .resizable()
-                        .scaledToFit()
-                        .clipShape(Circle())
-                        .frame(width: 50)
-                        .padding()
-                }
+                Image(home.nombreImagen)
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
+                    .frame(width: 50)
+                    .padding()
+                
                 VStack{
                     Text(home.titulo)
                         .font(.title)
@@ -47,15 +38,6 @@ struct PostView: View {
                 
             }
             HStack{
-                if home.isHer  == true {
-                    Text("Her")
-                        .font(.title3)
-                        .foregroundColor(.white)
-                        .padding(.horizontal,20)
-                        .background(Color("AccentColor"))
-                        .cornerRadius(15)
-                }
-                
                 Spacer()
                 Image(systemName: "heart")
                     .foregroundColor(.red)
@@ -71,28 +53,13 @@ struct PostView: View {
                 
             }
             .padding(.horizontal,10)
+            
             Rectangle()
                 .frame(height:2)
                 .foregroundColor(Color("LightGray"))
         }
     }
     
-    func profileView(for username: String) -> some View {
-        switch username {
-        case "@clauarcienegam":
-            return AnyView(ProfileView(profile: ProfileModel.defaultProfile))
-            
-        case "@danielaramosgarcia":
-            return  AnyView(ProfileView(profile: ProfileModel.defaultProfile))
-            
-        case "@valelimon":
-            return  AnyView(ProfileView(profile: ProfileModel.defaultProfile))
-            
-        default:
-               // Handle unknown user or provide a default profile view
-               return  AnyView(ProfileView(profile: ProfileModel.defaultProfile))
-        }
-    }
 }
 
 struct PostView_Previews: PreviewProvider {

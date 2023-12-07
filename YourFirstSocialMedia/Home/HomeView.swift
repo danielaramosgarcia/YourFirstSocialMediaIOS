@@ -12,7 +12,6 @@ struct HomeView: View {
     
     @EnvironmentObject var homeVM: HomeViewModel
     
-    
     var body: some View {
             VStack {
                 ZStack {

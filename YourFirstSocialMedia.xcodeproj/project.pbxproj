@@ -111,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				614CFA142B2146C30077D5BE /* YourFirstSocialMediaApp.swift */,
-				F9E2E0AA2B21759800F999A1 /* Post.swift */,
 				F9E2E0A12B2170CE00F999A1 /* Home */,
 				FB2F30492B216C9B009EA8F3 /* SideBar */,
 				F9E2E0A02B2170C200F999A1 /* Profile */,
@@ -159,6 +158,7 @@
 		F9E2E0A12B2170CE00F999A1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F9E2E0AA2B21759800F999A1 /* Post.swift */,
 				FB2F30412B216B63009EA8F3 /* HomeView.swift */,
 				F9E2E0A62B21757500F999A1 /* HomeViewModel.swift */,
 				F9E2E0A82B21758400F999A1 /* HomeModel.swift */,
