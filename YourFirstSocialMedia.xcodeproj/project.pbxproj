@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		614CFA152B2146C30077D5BE /* YourFirstSocialMediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614CFA142B2146C30077D5BE /* YourFirstSocialMediaApp.swift */; };
-		614CFA172B2146C30077D5BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614CFA162B2146C30077D5BE /* ContentView.swift */; };
 		614CFA192B2146C40077D5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614CFA182B2146C40077D5BE /* Assets.xcassets */; };
 		614CFA1C2B2146C40077D5BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614CFA1B2B2146C40077D5BE /* Preview Assets.xcassets */; };
 		614CFA262B2146C40077D5BE /* YourFirstSocialMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614CFA252B2146C40077D5BE /* YourFirstSocialMediaTests.swift */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		614CFA112B2146C30077D5BE /* YourFirstSocialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourFirstSocialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		614CFA142B2146C30077D5BE /* YourFirstSocialMediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourFirstSocialMediaApp.swift; sourceTree = "<group>"; };
-		614CFA162B2146C30077D5BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		614CFA182B2146C40077D5BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		614CFA1B2B2146C40077D5BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		614CFA212B2146C40077D5BE /* YourFirstSocialMediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourFirstSocialMediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,10 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				614CFA142B2146C30077D5BE /* YourFirstSocialMediaApp.swift */,
-				614CFA162B2146C30077D5BE /* ContentView.swift */,
-				FB2F30412B216B63009EA8F3 /* HomeView.swift */,
+				F9E2E0A12B2170CE00F999A1 /* Home */,
 				FB2F30492B216C9B009EA8F3 /* SideBar */,
-				FB2F30432B216B71009EA8F3 /* ProfileView.swift */,
+				F9E2E0A02B2170C200F999A1 /* Profile */,
 				FB2F303F2B216B08009EA8F3 /* NavigationTabView.swift */,
 				614CFA182B2146C40077D5BE /* Assets.xcassets */,
 				614CFA1A2B2146C40077D5BE /* Preview Content */,
@@ -139,6 +136,22 @@
 				614CFA312B2146C40077D5BE /* YourFirstSocialMediaUITestsLaunchTests.swift */,
 			);
 			path = YourFirstSocialMediaUITests;
+			sourceTree = "<group>";
+		};
+		F9E2E0A02B2170C200F999A1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F30432B216B71009EA8F3 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F9E2E0A12B2170CE00F999A1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB2F30412B216B63009EA8F3 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		FB2F30492B216C9B009EA8F3 /* SideBar */ = {
@@ -283,7 +296,6 @@
 				FB2F30402B216B08009EA8F3 /* NavigationTabView.swift in Sources */,
 				FB2F30422B216B63009EA8F3 /* HomeView.swift in Sources */,
 				FB2F30442B216B71009EA8F3 /* ProfileView.swift in Sources */,
-				614CFA172B2146C30077D5BE /* ContentView.swift in Sources */,
 				FB2F30462B216C4A009EA8F3 /* SideBar.swift in Sources */,
 				FB2F30482B216C94009EA8F3 /* SideBarView.swift in Sources */,
 				614CFA152B2146C30077D5BE /* YourFirstSocialMediaApp.swift in Sources */,
